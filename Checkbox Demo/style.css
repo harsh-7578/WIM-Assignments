@@ -1,0 +1,18 @@
+
+.checkboxDemo
+{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border:2px solid red;
+}
+.checkboxes
+{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+.outputCB
+{
+    border:2px solid green;
+}
