@@ -5,6 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     border:2px solid red;
+    height:300px;
 }
 .checkboxes
 {
@@ -15,4 +16,10 @@
 .outputCB
 {
     border:2px solid green;
+    height:500px;
+}
+.stateCities
+{
+    border:2px solid red;
+    height:500px;
 }
