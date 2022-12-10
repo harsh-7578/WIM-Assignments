@@ -1,0 +1,16 @@
+
+#main{
+	border: 1px solid;
+	background: yellow;
+	width: 100%;
+	overflow: hidden;
+	}
+
+	.para{
+	color: black;
+	font-weight: bold;
+	white-space: nowrap;
+	clear: both;
+	float: left;
+	}
+
