@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3>Employee Details</h3>
+    <form action="pdf.php" method="POST">
+        <p>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" required> <br><br>
+        </p><p>
+        <label for="first_name">FirstName:</label>    
+        <input id="first_name" type="text" name="first_name" required><br><br>
+        </p><p>
+        <label for="last_name">LastName:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+        </p><p>
+        <label for="gender">Gender:</label>
+        <input id="gender" type="text" name="gender" required><br><br>
+    </p><p>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+    </p><p>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+    </p><p>
+        <label for="Qualification">Qualification:</label>
+        <input type="text" id="Qualification" name="Qualification" required> <br><br>
+    </p>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

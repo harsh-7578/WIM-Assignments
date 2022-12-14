@@ -1,0 +1,14 @@
+body{
+    margin-top : 10%;
+    text-align: center;
+}
+button{
+    margin-left: 100%;
+}
+form{
+    margin-left: 40%;
+}
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
